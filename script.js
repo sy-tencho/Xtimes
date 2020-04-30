@@ -29,8 +29,7 @@ const onClickChangeSpeedBtn = () => {
     alert('上限値は3.0です。')
   } else if (speed <= 0.0) {
     alert('0.0より大きい値を設定してください。')
-  }
-  else {
+  } else {
     changeSpeed(speed)
   }
 }
